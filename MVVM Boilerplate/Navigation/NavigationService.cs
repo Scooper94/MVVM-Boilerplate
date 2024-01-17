@@ -24,9 +24,5 @@ namespace MVVM_Boilerplate.Navigation
         {
             _navigationStore.CurrentViewModel = _createViewModel();
         }
-
-
-
-
     }
 }
