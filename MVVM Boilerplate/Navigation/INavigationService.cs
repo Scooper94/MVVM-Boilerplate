@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MVVM_Boilerplate.Navigation
 {
-    public interface INavigationService
+    public interface INavigationService<TViewModel>
     {
         void Navigate();
     }
