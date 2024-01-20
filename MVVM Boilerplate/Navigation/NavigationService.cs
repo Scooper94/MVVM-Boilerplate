@@ -23,6 +23,7 @@ namespace MVVM_Boilerplate.Navigation
         public void Navigate()
         {
             _navigationStore.CurrentViewModel = _createViewModel();
+            _navigationStore.ViewModelChangedChanged
         }
     }
 }

@@ -23,11 +23,11 @@ namespace MVVM_Boilerplate.Navigation
             }
         }
 
-        public event PropertyChangedEventHandler? ViewModelChangedChanged;
+        public event PropertyChangedEventHandler? ViewModelChanged;
 
         private void OnViewModelChanged()
         {
-            ViewModelChangedChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CurrentViewModel)));
+            ViewModelChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CurrentViewModel)));
         }
     }
 }
